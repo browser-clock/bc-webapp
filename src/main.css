@@ -1,0 +1,23 @@
+/* clock-face section */
+
+.clock-face {
+  display: flex;
+}
+
+.short {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+.colon {
+  height: 50%;
+  display: flex;
+  justify-content: right;
+  font-size: 175%;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 200%;
+}
