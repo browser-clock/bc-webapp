@@ -3,6 +3,7 @@
 html,
 body {
   height: 100vh;
+  cursor: default;
 }
 
 body {
