@@ -67,3 +67,10 @@ body {
 .time {
   font-size: 200%;
 }
+
+/* copyright information */
+.copy, 
+.copy a {
+  text-decoration: none;
+  color: lightgray;
+}
