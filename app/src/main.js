@@ -12,6 +12,14 @@ function clockCycle() {
 }
 
 function updateClockFace(hours, minutes) {
+
+    if (hours >= 12) {
+        document.querySelector(".left .short .char[data-index='0']").innerHTML = "P";
+        hours = hours -= 12;
+    } else {
+        document.querySelector(".left .short .char[data-index='0']").innerHTML = "A";
+    }
+
     hours = parseTimeIntoArray(hours);
     minutes = parseTimeIntoArray(minutes);
 
