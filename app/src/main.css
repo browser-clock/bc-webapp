@@ -4,6 +4,8 @@ html,
 body {
   height: 100vh;
   cursor: default;
+  padding: 0;
+  margin: 0;
 }
 
 body {
