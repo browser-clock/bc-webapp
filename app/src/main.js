@@ -31,7 +31,14 @@ function updateClockFace(hours, minutes) {
 }
 
 function updateDocumentTitle(hours, minutes, seconds) {
-    document.title = `${formatNumber(hours)}:${formatNumber(minutes)}:${formatNumber(seconds)}`;
+    let h24 = `${formatNumber(hours)}:${formatNumber(minutes)}:${formatNumber(seconds)}`;
+    let suffix = "AM";
+    if (hours >= 12) {
+        hours = hours -= 12;
+        suffix = "PM";
+    }
+    let h12 = `${formatNumber(hours)}:${formatNumber(minutes)}:${formatNumber(seconds)} ${suffix}`;
+    document.title = `${h24} | ${h12}`;
 }
 
 function formatNumber(number) {
