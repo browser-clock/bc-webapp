@@ -7,6 +7,8 @@
   <meta name="description" content="See the current time right in you're favourite tool - the browser" />
   <link rel="stylesheet" href="templates/res/main.css" />
   <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/browser-clock/assets/master/logo/v1.0.0/ico/48x48.ico">
+
+  <include href="utils/google/analytics.html.php" />
 </head>
 
 <body>
