@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00e06df6a0fe899e87c85e0c6cbcf623",
+    "content-hash": "2fe64d84289e2527af0208b481ba6147",
     "packages": [
         {
-            "name": "bcosca/fatfree-core",
+            "name": "bcosca/fatfree",
             "version": "3.6.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bcosca/fatfree-core.git",
-                "reference": "c5aa056d2111e666e87f6129fe633c6a2aeeaae2"
+                "url": "https://github.com/bcosca/fatfree.git",
+                "reference": "a841d838e8f146486d85e4947fb92e2fa78fdeb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/c5aa056d2111e666e87f6129fe633c6a2aeeaae2",
-                "reference": "c5aa056d2111e666e87f6129fe633c6a2aeeaae2",
+                "url": "https://api.github.com/repos/bcosca/fatfree/zipball/a841d838e8f146486d85e4947fb92e2fa78fdeb8",
+                "reference": "a841d838e8f146486d85e4947fb92e2fa78fdeb8",
                 "shasum": ""
             },
             "require": {
@@ -25,8 +25,8 @@
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "."
+                "files": [
+                    "lib/base.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -35,7 +35,7 @@
             ],
             "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
             "homepage": "http://fatfreeframework.com/",
-            "time": "2018-12-24T13:37:45+00:00"
+            "time": "2018-12-24T13:43:34+00:00"
         }
     ],
     "packages-dev": [],

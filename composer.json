@@ -3,7 +3,7 @@
     "description": "See the current time, right in you're most used tool - the browser",
     "type": "project",
     "require": {
-        "bcosca/fatfree-core": "^3.6"
+        "bcosca/fatfree": "^3.6"
     },
     "license": "MIT",
     "authors": [
