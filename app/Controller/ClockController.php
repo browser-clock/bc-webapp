@@ -2,8 +2,6 @@
 
 namespace App\Controller;
 
-use App\Service\LoggingService;
-
 class ClockController extends BaseController {
 
     /**
