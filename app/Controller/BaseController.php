@@ -34,7 +34,7 @@ class BaseController extends Prefab {
         }
 
         // render the template
-        echo Template::instance()->render($templateName);
+        return Template::instance()->render($templateName);
     }
 
 }

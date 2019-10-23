@@ -10,7 +10,8 @@ class ClockController extends BaseController {
      * render the template for the main interface
      */
     public function indexAction() {
-        $this->render("base.html.php");
+
+        echo $this->render("base.html.php");
     }
 
 }
