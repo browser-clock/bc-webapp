@@ -3,7 +3,8 @@
     "description": "See the current time, right in you're most used tool - the browser",
     "type": "project",
     "require": {
-        "bcosca/fatfree": "^3.6"
+        "bcosca/fatfree": "^3.6",
+        "doctrine/migrations": "^2.1"
     },
     "license": "MIT",
     "authors": [
