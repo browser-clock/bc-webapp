@@ -14,7 +14,7 @@ class LogModel extends BaseModel {
                 "time" => "?",
                 "route" => "?",
             ])
-            ->setParameter(0, $request->getTime())
+            ->setParameter(0, $request->getTime()->format("Y-m-d H:i:s"))
             ->setParameter(1, $request->getRoute());
 
         // execute the query
