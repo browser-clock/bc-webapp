@@ -10,9 +10,11 @@
 </head>
 
 <body>
-  <include href="utils/github-corner.html.php" />
-  <include href="widgets/clock-face.html.php" />
-  <span class="copy">&copy; <a href="mailto:johannes@przymusinski.de">Johannes Stephan Przymusinsk</a>, 2019</span>
+  <main>
+    <include href="utils/github-corner.html.php" />
+    <include href="widgets/clock-face.html.php" />
+    <span class="copy">&copy; <a href="mailto:johannes@przymusinski.de">Johannes Stephan Przymusinsk</a>, 2019</span>
+  </main>
 </body>
 <script src="templates/res/main.js"></script>
 
