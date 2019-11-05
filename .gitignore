@@ -5,3 +5,6 @@
 
 # ignore imported google scripts
 templates/utils/google/*
+
+# project specific stuff
+config.ini
