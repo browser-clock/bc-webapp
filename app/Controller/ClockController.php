@@ -17,7 +17,7 @@ class ClockController extends BaseController {
     public function indexAction() {
 
         // Log the request
-        $request = new Request(new DateTime(), "GET /");
+        $request = new Request(new DateTime(), "/");
 
         // Save the request to the database
         LogModel::instance()->addRequest($request);
